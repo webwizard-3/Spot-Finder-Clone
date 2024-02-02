@@ -5,12 +5,14 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    color: #6b7280;
 }
 
 
 .container{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    /* border: 5px solid yellow; */
 }
 
 /* header */
@@ -19,6 +21,9 @@ nav{
     width: 100%;
     height: 85px;
     border-bottom: 1px solid #e4e6eb;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
 }
 
 nav img{
@@ -49,24 +54,33 @@ nav ul li a{
 }
 
 nav ul li a:hover{
+
     cursor: pointer;
     color: #e33645;
 }
 
-span{
+nav span{
     display: flex;
     justify-content: end;
     gap: 16px;
     position: relative;
-    
+    bottom: 55px;
+    right: 10px;
 }
 
-span i{
-    font-size: 30px;
+nav span i{
+    font-size: 27px;
     color: #e23744;
+    position: relative;
+    top: 6px;
 }
 
-span button{
+nav span i:hover{
+    color: #f89e9e;
+    cursor: pointer;
+}
+
+nav span button{
     padding: 9px 16px;
     color: #6b7280;
     letter-spacing: 1px;
@@ -75,13 +89,175 @@ span button{
     font-size: 16px;
 }
 
-span .submit1{
+nav span button{
+    cursor: pointer;
+}
+
+nav span .submit1{
     background-color: transparent;
 }
 
-span .submit2{
+nav span .submit2{
     background-color: #e23744;
     color: #fff;
     border-radius: 20px;
     
+}
+
+/* content */
+
+.content{
+    /* border: 10px solid red; */
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: #f5faff;
+    /* background-color: #f89e9e; */
+    margin: auto 0%;
+}
+
+
+.content .d1, .d2{
+    position: absolute;
+    top: 35%;
+}
+
+.content .d1{
+    position: relative;
+    top: 28%;
+    margin-left: 92px;
+    padding: 30px;
+    /* border: 2px solid black; */
+    width: 531px;
+    height: 440px;
+}
+
+.content .d1 h1{
+    color: #475467;
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+
+.content .d1 span{
+    color: #e23744;
+    letter-spacing: 1px;
+}
+
+.content .d1 p{
+    font-size: 20px;
+    color: #475467;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.content .d1 .img1{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 42px;
+    top: 162px;
+}
+
+.content .d1 .img2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 29px;
+    bottom: 82px;
+}
+
+.content .d1 .img3{
+    /* bottom: 0px; */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 276px;
+    bottom: 82px;
+}
+
+.content .d1 input{
+    display: flex;
+    width: 480px;
+    height: 60px;
+    background: transparent;
+    outline: 2px solid #e23744;
+    border: none;
+    margin: 10px;
+    position: relative;
+    right: 9px;
+    padding-left: 42px;
+    border-radius: 5px;
+}
+
+.content .d1 form i{
+    position: absolute;
+    left: 44px;
+    top: 244px;
+    font-size: 20px;
+    color: #e23744;
+}
+
+.content .d1 select{
+    border-radius: 5px;
+    width: 480px;
+    height: 60px;
+    border: none;
+    margin: 10px;
+    margin-left: 1px;
+    padding-left: 42px;
+    background: transparent;
+    outline: 2px solid #e23744;
+}
+
+.content .d1 select option{
+    color: black;
+    font-size: 16px;
+}
+
+.content .d1 .input2{
+    float: right;
+    position: relative;
+    width: 230px;
+    height: 55px;
+    padding-left: 50px;
+    left: 22px; 
+    bottom: 75px;
+}
+
+.content .d1 .input1{
+    width: 230px;
+    height: 55px;
+    padding-left: 50px;
+}
+
+.input1::placeholder,
+.input2::placeholder{
+    color: #e23744;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+::placeholder{
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.content .d1 button{
+    position: relative;
+    bottom: 35px;
+    width: 293px;
+    height: 53px;
+    border-radius: 30px;
+    background-color: #e23744;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.content .d2 img{
+    position: absolute;
+    left: 700px;
 }
