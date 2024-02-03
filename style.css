@@ -380,12 +380,59 @@ nav span .submit2{
     margin-top: 77px !important;
     margin: auto;
     width: 90%;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
-    /* background-color: #e23744; */
-    background-color: aquamarine;
-    /* box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.3); */
+    height: 730px;
+    background-color: #e23744;
     border-radius: 10px;
 }
 
+.spotfinder h1{
+    padding-top: 60px;
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.spotfinder p{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 19px;
+    padding-top: 35px;
+}
+
+.d5{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div2{
+    height: 372px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.div2 img{  
+    max-width:  160px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.d5 .div2 h3{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;   
+}
+
+.d5 .div2 p{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 16px;   
+}
