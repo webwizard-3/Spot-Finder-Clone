@@ -265,22 +265,127 @@ nav span .submit2{
 /* feature */
 
 .feature{
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 90px !important;
+    margin-right: 52px !important;
+    margin: auto;
+    width: 90%;
+    height: 600px;
 }
 
 .feature h1{
+    letter-spacing: 1px;
     font-size: 48px;
-    color: #2d3748;
+    color: #50545c;
     position: relative;
-    left: 50px;
+    left: 52px;
+    text-align: center;
 }
 
 .feature h6{
+    letter-spacing: 1px;
+    text-align: center;
     font-size: 24px;
     color: #5a616b;
     position: relative;
-    top: 30px;
+    top: 20px;
+    left: 46px;
 }
+
+/* feature div */
+
+.d3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.d3 .div1{
+    border-radius: 8px;
+    width: 380px;
+    height: 380px;
+    border: 1px solid #e6e6e6;
+}
+
+.d3 .img4{
+    width: 380px;
+    height: 220px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.d3 h2{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.d3 button{
+    position: relative;
+    top: 35px;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    left: 110px;
+    background-color: #e23744;
+}
+
+.d3 #d4{
+    background-image: url(images/airport.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.d3 #d4 h2{
+    padding-top: 13px;
+    position: relative;
+    text-align: center;
+    top: 220px;
+    font-size: 24px;
+    color: #000;
+    letter-spacing: 1px;
+    background-color: #fff;
+    height: 158px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.d3 #d4 button{
+    color: white;
+    position: relative;
+    top: 148px;
+    border: none;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    left: 110px;
+}
+
+.d3 button{
+    cursor: pointer;
+}
+
+/* Why Spot finder */
+
+.spotfinder{
+    margin-top: 77px !important;
+    margin: auto;
+    width: 90%;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    /* background-color: #e23744; */
+    background-color: aquamarine;
+    /* box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.3); */
+    border-radius: 10px;
+}
+
