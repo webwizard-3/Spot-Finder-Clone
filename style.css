@@ -43,6 +43,7 @@ nav ul{
 
 nav ul li{
     list-style: none;
+    position: relative;
 }
 
 nav ul li a{
@@ -52,18 +53,82 @@ nav ul li a{
     letter-spacing: 1px;
 }
 
+nav ul .l2::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 32px;
+    top: 92%;
+    width: 0;
+    height: 2px;
+    background: #e23744;
+    transition-duration: .5s;
+}
+
+
+nav ul .l1::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 25px;
+    top: 92%;
+    width: 0;
+    height: 2px;
+    background: #e23744;
+    transition-duration: .5s;
+}
+
+nav ul .l3::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 20px;
+    top: 92%;
+    width: 0;
+    height: 2px;
+    background: #e23744;
+    transition-duration: .5s;    
+}
+
+nav ul .l4::before
+{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 79px;
+    top: 92%;
+    width: 0;
+    height: 2px;
+    background: #e23744;
+    transition-duration: .5s;
+}
+
+nav ul .l1:hover::before{
+    width: 62px;
+}
+
+nav ul .l2:hover::before{
+    width: 82px;
+}
+nav ul .l3:hover::before{
+    width: 50px;
+}
+nav ul .l4:hover::before{
+    width: 170px;
+}
+
 nav ul li a:hover{
     cursor: pointer;
     color: #e33645;
 }
 
 nav span{
-    display: flex;
+    /* display: flex;
     justify-content: end;
-    gap: 16px;
+    gap: 16px; */
     position: relative;
     bottom: 55px;
-    right: 10px;
+    left: 70rem;
 }
 
 nav span i{
@@ -93,6 +158,11 @@ nav span button{
 
 nav span .submit1{
     background-color: transparent;
+}
+
+nav span .submit1:hover{
+    cursor: pointer;
+    color: #e23744;
 }
 
 nav span .submit2{
@@ -674,7 +744,7 @@ nav span .submit2{
 /* subscribe */
 
 .div8{
-    margin: 3%  auto;
+    margin: 3%  auto 0% auto;
     display: flex;
     justify-content: center;
     width: 90%;
@@ -710,6 +780,10 @@ nav span .submit2{
     border: 1px solid #e6e6e6;
 }
 
+.div8 .div9 input::placeholder{
+    color: #a1adc4;
+}
+
 .div8 .div9 button{
     font-size: 17px;
     margin-left: -4px;
@@ -722,4 +796,126 @@ nav span .submit2{
     top: 78px;
     width: 135px;
     height: 3.5rem;
+}
+
+/* footer */
+
+footer{
+    padding-top: 50px;
+    border-top: 4px solid #e23744;
+}
+
+.container1{
+    /* width: 1140px; */
+    /* margin: auto; */
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-content{
+    width: 33.3%;
+}
+
+h4{
+    font-size: 18px;
+    color: #e23744;
+    margin-bottom: 15px;
+}
+
+.footer-content img{
+    max-width: 60%;
+}
+
+.footer-content img:hover{
+    cursor: pointer;
+}
+
+.footer-content p{
+    margin-bottom: 10px;
+    color: #93a2b8;
+}
+
+.footer-content .social-icons{
+    position: relative;
+    right: 56px;
+}
+
+.list li{
+    padding-bottom: 10px;
+    width: auto;
+    top: 20px;
+    list-style-type: none;
+    position: relative;
+}
+
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 32%;
+    top: 80%;
+    width: 0;
+    height: 2px;
+    background: #e23744;
+    transition-duration: .5s;
+}
+
+.list .l5::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 20%;
+    top: 80%;
+    width: 0;
+    height: 2px;
+    background: #e23744;
+    transition-duration: .5s;
+}
+
+.list li:hover::before{
+    width: 65%;
+}
+
+.list .l5:hover::before{
+    width: 40%;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li{
+    display: inline-block;
+    padding: 5px 20px 5px 5px;
+}
+
+.social-icons i{
+    color: #e23744;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #95a4bf;
+}
+
+.footer-content li a:hover{
+    color: #e23744;
+}
+
+.bottom-bar{
+    border-top: 2px solid #93a2b8;
+    text-align: center;
+    padding: 11px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar p{
+    color: #95a4bf;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px;
 }
