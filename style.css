@@ -431,3 +431,149 @@ nav span .submit2{
     font-size: 16px;   
 }
 
+/*  airport parking  */
+
+.parking{
+    width: 90%;
+    height: 500px;
+    margin: 8% auto;
+}
+
+.parking h1{
+    padding-top: 10px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2d3747;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.parking .d6 {
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parking .div3{
+    border-radius: 10px;
+    height: 455px;
+    width: 370px;
+    border: 1px solid #e6e6e6;
+}
+
+.parking .div3 img{
+       width: 280px;
+    height: 220px;   
+}
+
+.parking .div3 h2{
+    padding-top: 40px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.parking .div3 p{
+    color: #000;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.parking .div3 button{
+    border: none;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #e23744;
+    color: #fff;
+    margin-top: 20px;   
+    position: relative;
+    left: 75px;
+}
+
+/* rating */
+
+.div4{
+    width: 51%;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10%  7%;
+    padding: 40px;
+    border: 1px solid #e6e6e6;
+}
+
+.div4 h4{
+    position: relative;
+    left: 80px;
+    top: -64px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.div4 p{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.div4 span{
+    color: #e23744;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.div4 i{
+    position: relative;
+    left: 78px;
+    top: -57px;
+    font-size: 18px;
+    color: #faaf00;
+    padding: 2px;
+}
+
+.div4 img{
+    max-width: 60px;
+    border-radius: 50px;
+}
+
+/* Reads */
+
+.div5{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.div5 h1{
+    text-align: center;
+    font-size: 46px;
+    color: #000;
+}
+
+.div5 h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 26px;
+    color: #000;
+    font-weight: 600;
+}
+
+.div5 span{
+    text-decoration: underline;
+    color: #e23744;
+    font-size: 18px;
+    text-align: end;
+    position: relative;
+    left: 63em;
+    bottom: 31px;
+    font-weight: 600;
+}
