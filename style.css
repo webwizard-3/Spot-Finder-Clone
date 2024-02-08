@@ -194,7 +194,7 @@ nav span .submit2{
     padding: 30px;
     background-color: #f5faff;
     width: 90%;
-    height: 75%;
+    height: 80%;
 }
 
 .content .d1 h1{
@@ -228,7 +228,7 @@ nav span .submit2{
     width: 50px;
     height: 50px;
     left: 29px;
-    bottom: 135px;
+    bottom: 165px;
 }
 
 .content .d1 .img3{
@@ -236,7 +236,7 @@ nav span .submit2{
     width: 50px;
     height: 50px;
     left: 276px;
-    bottom: 135px;
+    bottom: 165px;
 }
 
 .content .d1 input{
@@ -279,12 +279,12 @@ nav span .submit2{
 }
 
 .content .d1 .input2{
-    float: right;
+    float: left;
     position: relative;
     width: 230px;
     height: 55px;
     padding-left: 43px;
-    right: 664px; 
+    left: 239px; 
     bottom: 75px;
 }
 
@@ -311,6 +311,7 @@ nav span .submit2{
 .content .d1 button{
     position: relative;
     top: 35px;
+    right: 250px;
     width: 293px;
     height: 53px;
     border-radius: 30px;
@@ -322,8 +323,10 @@ nav span .submit2{
 }
 
 .content .d2 img{
-    position: absolute;
+    position: relative;
+    max-width: 100%;
     left: 700px;
+    top: 15px;
 }
 
 /* feature */
